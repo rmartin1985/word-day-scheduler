@@ -1,8 +1,10 @@
 # Work Day Scheduler-challenge-wk-5
 
-Being able to balance work and bootcamp can prove to be super challenging. This week being challenged to make a work day scheduler has proeven to not only be a great lesson to showcase all we have learned up to this point but also to learn some new skills. This scheduler will definitely help me in more ways than one. I hope it will help you too should you choose to use this tool for yourself as well.  
+Being able to balance work and bootcamp can prove to be super challenging. That is why this week being challenged to make a work day scheduler has proven to not only be a great lesson to showcase all we have learned up to this point, but will also help me to be able to plan out my work day better so that I can maximize my time for bootcamp studies. 
 
-The basic framework of HTML and CSS was done for us for this week so I could focus on the JavaScript more for this week's challenge. Getting to use Bootstrap has been such a time saver when it comes to styling grids on pages though. I have been looking at the DOCS on their API amd really enjoy learning the new tips and tricks.  
+This scheduler will definitely help me in more ways than one. I hope it will help you too should you choose to use this tool for yourself.  
+
+The basic framework of HTML and CSS was done for us for this week so I could focus on the JavaScript more. Getting to use Bootstrap has been such a time saver when it comes to styling grids on pages though. I have been looking at the DOCS on their API amd really enjoy learning the new tips and tricks.  
 
 Was also able to incorrporate a lot more of the JQuery tools for this challenge. I started off buidling this page as I normally would for DOM manipulation but quickly found myself abele to move through it quicker when using JQuery. Less keystrokes and code made for a more efficient expereince. It also motivated me to look up other ways to make myself more efficient using the ternary operator instead of always writing out an if/else statement. 
 
@@ -10,12 +12,12 @@ Was also able to incorrporate a lot more of the JQuery tools for this challenge.
 
 * Upon loading the page, the user will see a screen with the header Work Day Scheduler. The current date will also be displayed at the top. 
 * This tool is focused solely on the 9-5 work day but could easily be adapted for more hours in a day if needed.  
-* Each hour has a text box next to it for the user to add a task that they need accomplised by. 
+* Each hour has a text box next to it for the user to add a task that they need accomplished by. 
 * The hour blocks are also color coded to keep the user on track to fullfull their goals. 
     * The future hours are colored "green" to alert the user that they still have time to finish this task.
     * The current time block is colored "red" in order to alert the user that this is urgent needs to be completed. 
     * The past events are colored "grey" to show that these are no longer needed. 
-* When the user clicks on the blue disk icon button, their task is then saved in to local storage so that if they revist the page they won't lose their schedule when they refresh the page 
+* When the user clicks on the blue disk icon button, their task is then saved in to local storage so that if they revist the page they won't lose their schedule when they refresh the page. 
 
 The above meet the requirements for the challenge for this week thus making this tool a MVP. 
 
