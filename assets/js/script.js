@@ -41,7 +41,7 @@ var displayRows = function(currentTime) {
     var hourCol = createCol(createHourDiv(i), 1);
     var textArea = createCol(createTextArea(i, currentHour), 10);
     var saveBtn = createCol(createSaveBtn(i), 1);
-    appendTimeBlockColumns(timeBlock, hourCol, textArea, saveBtn);
+    appendTimeBlocks(timeBlock, hourCol, textArea, saveBtn);
     $('.container').append(timeBlock);
   }
 }
@@ -86,7 +86,7 @@ var createSaveBtn = function(hour) {
 
 // puts everything together
 
-var appendTimeBlockColumns = function(timeBlockRow, hourCol, textAreaCol, saveBtnCol) {
+var appendTimeBlocks = function(timeBlockRow, hourCol, textAreaCol, saveBtnCol) {
   var innerCols = [hourCol, textAreaCol, saveBtnCol];
   for (let col of innerCols) {
     timeBlockRow.append(col);
@@ -99,7 +99,7 @@ var containerClicked = function(event, timeBlockList) {
     var timeBlockHour = getTimeBlockHour(event);
     var textAreaValue = getTextAreaValue(timeBlockHour);
     placeTimeBlockInList(new timeBlockObj(timeBlockHour, textAreaValue), timeBlockList);
-    saveTimeBlockList(timeBlockList);
+    saveTimeBlocks(timeBlockList);
   }
 }
 
