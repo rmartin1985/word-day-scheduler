@@ -35,7 +35,7 @@ I have created a develop branch for this project as I would like to do a few mor
 
 Richard Martin - rmartin1985@att.net
 
-Project Link: (https://rmartin1985.github.io/quiz-challenge-wk-4/)
+Project Link: (https://rmartin1985.github.io/work-day-scheduler/)
 
 ## Acknowledgements 
 
